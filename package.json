@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/rturner1220/contact-card#readme",
   "dependencies": {
+    "autoprefixer": "10.4.5",
     "concurrently": "^7.3.0"
-  }
+  },
+  "heroku-prebuild": "npm install --dev"
 }
