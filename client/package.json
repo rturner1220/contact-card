@@ -11,7 +11,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.0",
+    "idb": "^7.0.2",
     "@babel/core": "^7.19.0",
     "@babel/preset-env": "^7.19.0",
     "babel-loader": "^8.2.5",
@@ -22,10 +25,5 @@
     "webpack-cli": "^4.10.0",
     "webpack-pwa-manifest": "^4.3.0",
     "workbox-webpack-plugin": "^6.5.4"
-  },
-  "dependencies": {
-    "@popperjs/core": "^2.11.6",
-    "bootstrap": "^5.2.0",
-    "idb": "^7.0.2"
   }
 }
